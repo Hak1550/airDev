@@ -1,0 +1,19 @@
+build:
+  docker:
+    web: ./backend/Dockerfile
+  config:
+    DEBUG_COLLECTSTATIC: 1
+    SECRET_KEY: build
+release:
+  image: web
+  command:
+    - python3 manage.py migrate
+run:
+  worker:
+    command:
+      - celery -A shiny_limit_32516 worker -l INFO
+    image: web
+  beat:
+    command:
+      - celery -A shiny_limit_32516 beat -l INFO
+    image: web

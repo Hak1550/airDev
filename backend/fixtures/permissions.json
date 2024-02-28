@@ -1,0 +1,106 @@
+[
+    {
+        "model": "permission.PermissionType",
+        "pk": 1,
+        "fields": {
+            "role_id": 1,
+            "permissions": "[\"CREATE_PROJECT\",\"EDIT_PROJECT_DETAILS\",\"ARCHIVE_PROJECT\",\"PROJECTS_SCREEN_VISABILITY\",\"SHOOT_SETUP_SCREEN\",\"VIDEO_AUDIO_ROUTING\",\"CAMERA_ASSIGN\",\"CAMERA_CONTROL\",\"COMMS\",\"EC2_CREATE\",\"EC2_ACCESS\",\"MULTIVIEW\",\"PROGRAM_FEED_FILE\",\"UPLOAD_FILE\",\"FILE_MOVEMENT\",\"USAGE_AND_BILLING\",\"EDIT_SETUP_SCREEN\",\"MEDIA_ASSET_MGMNT\",\"QR_SCAN\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 2,
+        "fields": {
+            "role_id": 2,
+            "permissions": "[\"CREATE_PROJECT\",\"EDIT_PROJECT_DETAILS\",\"SHOOT_SETUP_SCREEN\",\"VIDEO_AUDIO_ROUTING\",\"CAMERA_ASSIGN\",\"CAMERA_CONTROL\",\"COMMS\",\"EC2_CREATE\",\"EC2_ACCESS\",\"MULTIVIEW\",\"PROGRAM_FEED_FILE\",\"UPLOAD_FILE_MOVEMENT\",\"EDIT_SETUP_SCREEN\",\"MEDIA_ASSET_MGMNT\",\"QR_SCAN\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 3,
+        "fields": {
+            "role_id": 3,
+            "permissions": "[\"SHOOT_SETUP_SCREEN\",\"VIDEO_AUDIO_ROUTING\",\"CAMERA_ASSIGN\",\"CAMERA_CONTROL\",\"COMMS\",\"EC2_CREATE\",\"EC2_ACCESS\",\"MULTIVIEW\",\"PROGRAM_FEED_FILE\",\"UPLOAD_FILE_MOVEMENT\",\"EDIT_SETUP_SCREEN\",\"MEDIA_ASSET_MGMNT\",\"QR_SCAN\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 4,
+        "fields": {
+            "role_id": 4,
+            "permissions": "[\"SHOOT_SETUP_SCREEN\",\"VIDEO_AUDIO_ROUTING\",\"CAMERA_ASSIGN\",\"CAMERA_CONTROL\",\"COMMS\",\"EC2_CREATE\",\"EC2_ACCESS\",\"MULTIVIEW\",\"PROGRAM_FEED_FILE\",\"UPLOAD_FILE_MOVEMENT\",\"EDIT_SETUP_SCREEN\",\"MEDIA_ASSET_MGMNT\",\"QR_SCAN\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 5,
+        "fields": {
+            "role_id": 5,
+            "permissions": "[\"COMMS\",\"EC2_CREATE\",\"EC2_ACCESS\",\"MULTIVIEW\",\"PROGRAM_FEED_FILE\",\"MEDIA_ASSET_MGMNT\",\"QR_SCAN\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 6,
+        "fields": {
+            "role_id": 6,
+            "permissions": "[\"CAMERA_CONTROL\",\"COMMS\",\"MULTIVIEW\",\"PROGRAM_FEED_FILE\",\"QR_SCAN\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 7,
+        "fields": {
+            "role_id": 7,
+            "permissions": "[\"MULTIVIEW\",\"PROGRAM_FEED_FILE\",\"UPLOAD_FILE_MOVEMENT\",\"MEDIA_ASSET_MGMNT\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 8,
+        "fields": {
+            "role_id": 8,
+            "permissions": "[\"COMMS\",\"MULTIVIEW\",\"PROGRAM_FEED_FILE\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 9,
+        "fields": {
+            "role_id": 9,
+            "permissions": "[\"EC2_ACCESS\",\"UPLOAD_FILE_MOVEMENT\",\"EDIT_SETUP_SCREEN\",\"MEDIA_ASSET_MGMNT\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 10,
+        "fields": {
+            "role_id": 10,
+            "permissions": "[\"EC2_ACCESS\",\"UPLOAD_FILE_MOVEMENT\",\"EDIT_SETUP_SCREEN\",\"MEDIA_ASSET_MGMNT\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 11,
+        "fields": {
+            "role_id": 11,
+            "permissions": "[\"EC2_ACCESS\",\"UPLOAD_FILE_MOVEMENT\",\"EDIT_SETUP_SCREEN\",\"MEDIA_ASSET_MGMNT\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 12,
+        "fields": {
+            "role_id": 12,
+            "permissions": "[\"EC2_ACCESS\",\"UPLOAD_FILE_MOVEMENT\",\"EDIT_SETUP_SCREEN\",\"MEDIA_ASSET_MGMNT\"]"
+        }
+    },
+    {
+        "model": "permission.PermissionType",
+        "pk": 13,
+        "fields": {
+            "role_id": 13,
+            "permissions": "[\"NO_PERMISSION\"]"
+        }
+    }
+]

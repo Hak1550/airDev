@@ -1,0 +1,20 @@
+@import 'react-modal-video/scss/modal-video.scss';
+@import 'react-date-range/dist/styles.css';
+@import 'react-date-range/dist/theme/default.css';
+
+.root {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,13 @@
+const PROJECT = 'PROJECT';
+const ADD_PROJECT = 'ADD_PROJECT';
+const EDIT_PROJECT = 'EDIT_PROJECT';
+const DUPLICATE_PROJECT = 'DUPLICATE_PROJECT';
+
+const SideBarPageType = {
+  PROJECT,
+  ADD_PROJECT,
+  EDIT_PROJECT,
+  DUPLICATE_PROJECT,
+};
+
+export default SideBarPageType;

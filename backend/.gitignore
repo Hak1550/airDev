@@ -1,0 +1,10 @@
+*.pyc
+env/
+.terraform
+.env
+staticfiles/
+postgres-data/
+backend/
+cut_migrations/
+n/
+__pycache__/

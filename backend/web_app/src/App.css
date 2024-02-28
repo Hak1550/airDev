@@ -1,0 +1,351 @@
+.modal-content {
+  max-width: 400px;
+  padding: 24px;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.1),
+    0px 8px 8px -4px rgba(16, 24, 40, 0.04);
+  border-radius: 12px;
+}
+
+.modal-body {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #101828;
+  margin: 20px 0px 8px;
+}
+
+.dropdown-menu {
+  width: 240px;
+  box-shadow: 0px 12px 16px -4px rgba(16, 24, 40, 0.1),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.05);
+}
+
+.dropdown-item {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-item-text-custom {
+  margin-left: 10px;
+  padding-top: 5px;
+}
+
+.rdrCalendarWrapper {
+  background: #ffffff;
+  box-shadow: 0px 20px 24px -4px rgba(16, 24, 40, 0.1),
+    0px 8px 8px -4px rgba(16, 24, 40, 0.04);
+  border-radius: 8px;
+  width: 328px;
+  height: 521px;
+  padding: 24px 24px 16px;
+
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: box !important;
+  -webkit-box-orient: vertical !important;
+  -moz-box-orient: vertical !important;
+  box-orient: vertical !important;
+}
+.rdrDateDisplayWrapper {
+  -webkit-box-ordinal-group: 2 !important;
+  background-color: #ffffff;
+}
+.rdrMonthAndYearWrapper {
+  padding-top: 0px !important;
+  height: 40px;
+}
+.rdrMonthAndYearPickers {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #344054;
+}
+.rdrDateDisplay {
+  margin: 0px !important;
+}
+.rdrDateDisplayItem {
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  height: 40px !important;
+  max-width: 128px !important;
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.rdrDateDisplay span:first-child:not(:empty) + span:not(:empty):before {
+  content: '–';
+  text-align: center;
+  display: inline-block;
+  transform: translate(-200%, 0);
+  height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #667085;
+  position: absolute;
+}
+
+.rdrDateDisplayItem > input {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #101828 !important;
+  cursor: default !important;
+}
+.rdrNextPrevButton {
+  background: white;
+}
+.rdrMonths {
+  -webkit-box-ordinal-group: 3 !important;
+}
+.rdrMonth {
+  width: auto !important;
+  padding: 22px 0px !important;
+}
+.rdrWeekDay {
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  color: #344054 !important;
+}
+
+.rdrDayNumber {
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 20px !important;
+  text-align: center !important;
+  color: #344054 !important;
+}
+
+/* .rdrStartEdge,
+.rdrEndEdge {
+  background: #7f56d9 !important;
+  border-radius: 20px !important;
+} */
+
+.rdrDay {
+  padding: 24px 16px !important;
+}
+
+.rdrDay:not(.rdrDayPassive) .rdrInRange ~ .rdrDayNumber span,
+.rdrDay:not(.rdrDayPassive) .rdrSelected ~ .rdrDayNumber span {
+  color: #6941c6 !important;
+}
+
+.rdrDay:not(.rdrDayPassive) .rdrStartEdge ~ .rdrDayNumber,
+.rdrDay:not(.rdrDayPassive) .rdrEndEdge ~ .rdrDayNumber {
+  background: #6941c6 !important;
+  border-radius: 20px;
+}
+
+.rdrDayToday > .rdrDayNumber {
+  background: #f2f4f7;
+  border-radius: 20px;
+}
+
+.rdrDayEndOfMonth .rdrInRange,
+.rdrDayEndOfMonth .rdrStartEdge,
+.rdrDayEndOfWeek .rdrInRange,
+.rdrDayEndOfWeek .rdrStartEdge {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.rdrDayStartOfMonth .rdrInRange,
+.rdrDayStartOfMonth .rdrEndEdge,
+.rdrDayStartOfWeek .rdrInRange,
+.rdrDayStartOfWeek .rdrEndEdge {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.rdrDayToday .rdrDayNumber span:after {
+  display: none;
+}
+
+.modal-backdrop {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.react-date-picker {
+  padding: 0px;
+}
+.react-date-picker__wrapper {
+  padding-left: 8px !important;
+  padding-right: 8px !important;
+  height: 44px !important;
+  border: none !important;
+  background: white !important;
+}
+
+.react-date-picker__calendar .react-calendar {
+  border-radius: 12px !important;
+  border: 1px solid #d0d5dd !important;
+  width: 100% !important;
+}
+
+.react-date-picker__calendar {
+  width: 100% !important;
+}
+
+.react-date-picker__inputGroup__input:focus-visible {
+  outline: none;
+}
+
+.custom-calendar button{
+  color:black;
+}
+
+.custom-calendar .react-calendar__month-view__days__day--weekend{
+  color: #d10000;
+}
+
+.custom-calendar button:disabled{
+  color: #1010104D
+}
+
+.custom-calendar .react-calendar__tile--now{
+  background: #ffff76;
+}
+
+.custom-calendar .react-calendar__tile--active{
+  background: #006edc;
+  color: white !important;
+}
+
+.custom-calendar .react-calendar__month-view__days__day--neighboringMonth{
+  color: #757575 !important;
+}
+
+.btn-primary:disabled {
+  background-color: gray !important;
+}
+
+.account-settings:focus {
+  box-shadow: unset !important;
+}
+
+.btn-outline-secondary{
+  color: #D0D5DD;
+  border-color: #D0D5DD;
+  background-color: #FFF;
+}
+
+.btn-check:checked + .btn-outline-secondary{
+  color: #fff;
+  background-color: #F9FAFB;
+  border-color: #D0D5DD;
+}
+
+.btn-outline-secondary:hover{
+  color: #fff;
+  background-color: #F9FAFB;
+  border-color: #D0D5DD;
+}
+
+.btn-outline-secondary:focus {
+  box-shadow: none !important;
+}
+
+
+/* Custom Table CSS */
+.table{
+  background: #FFFFFF;
+  border: 1px solid #E4E7EC;
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+  border-radius: 8px;
+}
+
+.table > :not(:first-child) {
+    border-top: 1px solid #E4E7EC;
+}
+.table > thead >tr >th {
+  padding: 0px 12px;
+  height:44px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;
+  background: #F9FAFB;
+  vertical-align: middle;
+}
+.table > tbody >tr >td {
+  padding : 0px 12px;
+  height:72px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #101828;
+  vertical-align: middle;
+}
+
+.shadded-column{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #667085;                                             
+}
+
+.page-link{
+  background:#f9fafb !important;
+}
+
+/* Table Style End Here */
+
+.fw-semibold{
+  font-weight:500;
+}
+
+video {
+  object-fit: cover;
+  border-radius:8px;
+}
+
+abbr[title]{
+  text-decoration: none !important;
+}
+
+.MuiSlider-root{
+  color:#fff !important
+}
+
+.MuiSlider-thumb{
+  height: 12px !important;
+  width: 12px !important;
+}
+
+.MuiTooltip-arrow{
+  color: #333333 !important; 
+}
+.MuiTooltip-tooltip{
+  height: 34px !important;
+  background: #333333 !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  text-align: center !important;
+  color: #FFFFFF !important;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  pointer-events: all !important;
+}
+
+.ReactModal__Overlay{
+  z-index: 10;
+}

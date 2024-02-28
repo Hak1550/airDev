@@ -1,0 +1,34 @@
+[
+    {
+        "model": "permission.OrganisationPermissionType",
+        "pk": 1,
+        "fields": {
+            "role": 1,
+            "permissions": "{'ARCHIVED_PROJECTS': ['VIEW', 'DELETE', 'UNARCHIVE', 'VIEW_DETAILS'], 'MY_MEDIA': ['ASSETS', 'COLLECTIONS'], 'HELP_ARTICLES': ['VIEW'], 'ACCOUNTS': ['MY_DETAILS','CHANGE_PASSWORD','TEAM','ASSETS','INTEGRATIONS','BILLING'], 'PROJECTS': ['CREATE_PROJECT']}"
+        }
+    },
+    {
+        "model": "permission.OrganisationPermissionType",
+        "pk": 2,
+        "fields": {
+            "role": 2,
+            "permissions": "{'ARCHIVED_PROJECTS': ['VIEW', 'DELETE', 'UNARCHIVE', 'VIEW_DETAILS'], 'MY_MEDIA': ['ASSETS', 'COLLECTIONS'], 'HELP_ARTICLES': ['VIEW'], 'ACCOUNTS': ['MY_DETAILS','CHANGE_PASSWORD'], 'PROJECTS': ['CREATE_PROJECT']}"
+        }
+    },
+    {
+        "model": "permission.OrganisationPermissionType",
+        "pk": 3,
+        "fields": {
+            "role": 3,
+            "permissions": "{'HELP_ARTICLES': ['VIEW'], 'ACCOUNTS': ['MY_DETAILS','CHANGE_PASSWORD']}"
+        }
+    },
+    {
+        "model": "permission.OrganisationPermissionType",
+        "pk": 4,
+        "fields": {
+            "role": 4,
+            "permissions": "{'HELP_ARTICLES': ['VIEW'], 'ACCOUNTS': ['MY_DETAILS','CHANGE_PASSWORD']}"
+        }
+    }
+]

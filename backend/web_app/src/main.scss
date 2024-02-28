@@ -1,0 +1,129 @@
+$blue-600: #7f56d9;
+$blue-700: #175cd3;
+
+$primary: $blue-600;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px,
+);
+
+$gray-300: #d0d5dd;
+$gray-500: #667085;
+$gray-700: #344054;
+$gray-800: #343a40;
+$gray-900: #101828;
+
+$input-btn-padding-y: 0.5625rem;
+$input-btn-padding-y-sm: 0.5625rem;
+$input-btn-padding-y-lg: 0.5625rem;
+$input-btn-border-width: 1px;
+
+$border-radius: 8px;
+$border-radius-sm: 8px;
+$border-radius-lg: 8px;
+
+$form-label-margin-bottom: 0.375rem;
+$form-label-font-size: 14px;
+$form-label-font-style: normal;
+$form-label-font-weight: 500;
+$form-label-color: $gray-700;
+
+$input-placeholder-color: $gray-500;
+$input-plaintext-color: $gray-900;
+$input-border-color: $gray-300;
+
+$breadcrumb-divider: url("data:image/svg+xml,%3Csvg width='6' height='10' viewBox='0 0 6 10' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 9L5 5L1 1' stroke='%23D0D5DD' stroke-width='1.33333' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+$breadcrumb-font-size: 14px;
+$breadcrumb-active-color: $gray-700;
+
+$accordion-color: #344054;
+$accordion-bg: #ffffff;
+$accordion-padding-y: 0;
+$accordion-padding-x: 0;
+$accordion-border-width: 0;
+$accordion-border-radius: 0;
+$accordion-icon-width: 16px;
+$accordion-button-active-bg: $accordion-bg;
+$accordion-button-focus-border-color: $accordion-bg;
+$accordion-button-focus-box-shadow: none;
+$accordion-button-active-color: $accordion-color;
+$accordion-button-color: $accordion-color;
+$accordion-button-bg: $accordion-bg;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+.input-group > .form-control {
+  border-left: none;
+  padding-left: 0;
+}
+
+.input-group-text {
+  border-right: none;
+  background: #ffffff;
+  padding-left: 14px;
+  padding-right: 8px;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+  margin-right: 20px;
+}
+.breadcrumb-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  /* Gray/500 */
+  color: #667085;
+  padding: 4px 8px;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 16px;
+}
+
+.accordion-button {
+  width: 0;
+}
+
+.react-date-picker__wrapper {
+  height: 40px;
+
+  background: #f9fafb;
+  /* Gray/300 */
+
+  border: 1px solid #d0d5dd !important;
+  box-sizing: border-box;
+  /* Shadow/xs */
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.edit-icon {
+  display: none;
+  width: 32px;
+}
+
+.password-field input {
+  border-right: none;
+  border-left: 1px solid #d0d5dd !important;
+  padding-left: 14px !important;
+}
+
+.password-field .input-group-append .input-group-text {
+  border-left: none !important;
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-right: 1px solid #d0d5dd !important;
+  cursor: pointer;
+  height: 44px;
+  padding-right: 14px !important;
+}

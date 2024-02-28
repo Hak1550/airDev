@@ -1,0 +1,27 @@
+[
+  {
+    "model": "permission.PermissionType",
+    "pk": 1,
+    "fields": {
+      "role_id": 1,
+      "permissions": "[\"CREATE_PROJECT\",\"EDIT_PROJECT_DETAILS\",\"ARCHIVE_PROJECT\",\"PROJECTS_SCREEN_VISABILITY\",\"SHOOT_SETUP_SCREEN\",\"VIDEO_AUDIO_ROUTING\",\"CAMERA_ASSIGN\",\"CAMERA_CONTROL\",\"COMMS\",\"EC2_CREATE\",\"EC2_ACCESS\",\"MULTIVIEW\",\"PROGRAM_FEED_FILE\",\"UPLOAD_FILE\",\"FILE_MOVEMENT\",\"USAGE_AND_BILLING\",\"EDIT_SETUP_SCREEN\",\"MEDIA_ASSET_MGMNT\",\"QR_SCAN\"]"
+    }
+  },
+  {
+    "model": "permission.PermissionType",
+    "pk": 2,
+    "fields": {
+      "role_id": 5,
+      "permissions": "[\"CAMERA_CONTROL\",\"COMMS\",\"MULTIVIEW\",\"PROGRAM_FEED_FILE\",\"UPLOAD_FILE\",\"QR_SCAN\"]"
+    }
+  },
+  {
+    "model": "permission.PermissionType",
+    "pk": 3,
+    "fields": {
+      "role_id": 13,
+      "permissions": "[]"
+    }
+  }
+]
+
